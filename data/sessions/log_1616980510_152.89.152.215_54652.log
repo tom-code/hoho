@@ -1,0 +1,13 @@
+from: 152.89.152.215:54652 user:admin password:vertex25ektks123
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox UDBSI
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox UDBSI
+tftp; wget; /bin/busybox UDBSI
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox UDBSI
+rm .s; exit
+q
+[eof]

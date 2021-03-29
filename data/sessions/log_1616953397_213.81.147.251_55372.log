@@ -1,0 +1,7 @@
+from: 213.81.147.251:55372 user:default password:default
+enable
+sh
+shell
+linuxshell
+system
+/bin/busybox CORONA

